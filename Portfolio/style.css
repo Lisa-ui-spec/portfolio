@@ -1,0 +1,194 @@
+/*=======================Navbar==================*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    background-color: #ebebeb;
+}
+.nav-link{
+    color: darkgreen;
+    font-size: 1rem;
+    font-weight:100;
+    cursor:pointer;
+    text-decoration: none;
+    margin-right: 70px;
+}
+
+.nav-link:hover{
+    color:white;
+    background-color:#708238;
+}
+.navbar-brand{
+    font-size:1.50rem;
+    font-weight:600;
+    color:#708238;
+    cursor:pointer;
+    text-decoration :none;
+    font-family: lucida handwriting;
+}
+
+/*=======================Main==================*/
+main{
+    background: url(image/2.png)no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 90vh;
+}
+
+
+main h3{
+    font-size: 4.4rem;
+    font-weight: 300;
+    color:#708238;
+}
+
+main h4{
+    color:#c3b091;
+}
+h4{
+        color: #c3b091;
+        font-weight: 400;
+        text-align: center
+    }
+
+
+
+h3{
+    font-size: 3rem;
+    font-weight: 300;
+    color:#708238;
+    
+} 
+
+
+p{
+    font-size: 1.25rem;
+    font-weight:200;
+    color:#708238;
+}
+
+a :hover{
+     color:#c3b091;
+}
+
+
+#footer{
+    background-color: #ebebeb;
+    height:30%;
+}
+
+/*=======================Progress Bar==================*/
+
+.progress{
+    background-color:#ebebeb ;
+    justify-content: flex-start;
+    border-radius:50px;
+    align-items: center;
+    position: relative;
+    display: flex;
+    height:25px;
+    width:100%;
+}
+
+.pro-value1{
+    animation: load1 3s normal forwards;
+    border-radius: 50px;
+    background-color: #708238;
+    height:25px;
+    width:0;
+}
+
+
+.progress p{
+    font-weight: 200;
+    color:white;
+    padding-left: 10px;
+  
+}
+
+@keyframes load1{
+    0%{
+        width:0;
+    }
+    100%{
+        width:78%;
+    }
+}
+
+
+.pro-value2{
+    animation: load2 3s normal forwards;
+    border-radius: 50px;
+    background-color: #708238;
+    height:25px;
+    width:0;
+}
+
+
+@keyframes load2{
+    0%{
+        width:0;
+    }
+    100%{
+        width:84%;
+    }
+}
+
+
+.pro-value3{
+    animation: load3 3s normal forwards;
+    border-radius: 50px;
+    background-color: #708238;
+    height:25px;
+    width:0;
+}
+
+
+@keyframes load3{
+    0%{
+        width:0;
+    }
+    100%{
+        width:55%;
+    }
+
+
+
+.pro-value4{
+    animation: load3 3s normal forwards;
+    border-radius: 50px;
+    background-color: #708238;
+    height:25px;
+    width:0;
+}
+
+
+@keyframes load4{
+    0%{
+        width:0;
+    }
+    100%{
+        width:50%;
+    }
+    }
+    
+.section-divider{
+        color:#708238;
+    }
+    
+
+    
+    
+
+
+
+
+
+
+
+
+.
